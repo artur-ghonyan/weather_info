@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WeatherInfo</string>
+    <string-array name="city_display_names">
+        <item>Yerevan, Armenia</item>
+        <item>London, United Kingdom</item>
+        <item>Berlin, Germany</item>
+        <item>Paris, France</item>
+        <item>Stockholm, Sweden</item>
+    </string-array>
+
+    <string-array name="city_values">
+        <item>Yerevan</item>
+        <item>London</item>
+        <item>Berlin</item>
+        <item>Paris</item>
+        <item>Stockholm</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.weatherinfo.MainActivity"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/sp_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="@dimen/padding"/>
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:hint="city"
+        android:textSize="@dimen/text_size_large"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_margin"/>
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:hint="temperature"
+        android:textSize="@dimen/text_size_large"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_margin"/>
+
+    <TextView
+        android:id="@+id/tv_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:hint="pressure"
+        android:textSize="@dimen/text_size_small"
+        android:gravity="center"
+        android:paddingTop="@dimen/padding_top"
+        android:layout_margin="@dimen/text_margin"/>
+
+    <TextView
+        android:id="@+id/tv_wind_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:hint="wind speed"
+        android:textSize="@dimen/text_size_small"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_margin"/>
+
+    <TextView
+        android:id="@+id/tv_humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:hint="humidity"
+        android:textSize="@dimen/text_size_small"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_margin"/>
+
+</LinearLayout>
